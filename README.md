@@ -18,8 +18,8 @@ services:
       - "3307:3306"
 # environment variable      
     environment:
-      - MYSQL_DATABASE=saudi-law
-      - MYSQL_ROOT_PASSWORD=saudi-law
+      - MYSQL_DATABASE=abc
+      - MYSQL_ROOT_PASSWORD=abc
 # Store Data into volumes
 ```
     volumes:
@@ -53,8 +53,8 @@ services:
     ports:
       - "3306:3306"
     environment:
-      - MYSQL_DATABASE=saudi-law
-      - MYSQL_ROOT_PASSWORD=saudi-law
+      - MYSQL_DATABASE=abc
+      - MYSQL_ROOT_PASSWORD=abc
     volumes:
       - database-data:/var/lib/mysql # persist data even if container shuts
 
